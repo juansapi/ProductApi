@@ -1,12 +1,12 @@
-# 🚀 Product API - .NET Core
+# Product API - .NET Core
 
-## 📌 Descripción
+## Descripción
 
 Esta API RESTful en **.NET Core** permite gestionar productos mediante operaciones **CRUD** (Crear, Leer, Actualizar y Eliminar). Se ha desarrollado con **arquitectura MVC** y utiliza **Swagger** para documentación.
 
 ---
 
-## 🛠️ Tecnologías Utilizadas
+## Tecnologías Utilizadas
 
 - **.NET Core** (ASP.NET Web API)
 - **C#**
@@ -15,7 +15,7 @@ Esta API RESTful en **.NET Core** permite gestionar productos mediante operacion
 
 ---
 
-## 📥 Instalación y Configuración
+## Instalación y Configuración
 
 ### 1️⃣ Clonar el Repositorio
 
@@ -44,7 +44,7 @@ https://localhost:5001
 
 ---
 
-## 📖 Documentación con Swagger
+## Documentación con Swagger
 
 Para acceder a la documentación interactiva, abre en tu navegador:
 
@@ -56,21 +56,21 @@ Aquí puedes probar los endpoints de la API de forma visual.
 
 ---
 
-## 📌 Endpoints
+##  Endpoints
 
-### 🔹 Obtener todos los productos
+###  Obtener todos los productos
 
 **GET** `/api/products`
 
-### 🔹 Obtener un producto por ID
+###  Obtener un producto por ID
 
 **GET** `/api/products/{id}`
 
-### 🔹 Crear un nuevo producto
+###  Crear un nuevo producto
 
 **POST** `/api/products`
 
-#### 📌 JSON Body:
+####  JSON Body:
 
 ```json
 {
@@ -80,11 +80,11 @@ Aquí puedes probar los endpoints de la API de forma visual.
 }
 ```
 
-### 🔹 Actualizar un producto
+###  Actualizar un producto
 
 **PUT** `/api/products/{id}`
 
-#### 📌 JSON Body:
+####  JSON Body:
 
 ```json
 {
@@ -94,6 +94,6 @@ Aquí puedes probar los endpoints de la API de forma visual.
 }
 ```
 
-### 🔹 Eliminar un producto
+### Eliminar un producto
 
 **DELETE** `/api/products/{id}`
