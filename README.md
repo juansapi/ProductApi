@@ -20,7 +20,7 @@ Esta API RESTful en **.NET Core** permite gestionar productos mediante operacion
 ### 1️⃣ Clonar el Repositorio
 
 ```sh
-git clone https://github.com/tu-usuario/ProductApi.git
+git clone https://github.com/juansapi/ProductApi.git
 cd ProductApi
 ```
 
